@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include <sstream>
 
 using namespace std;
 
@@ -40,17 +41,19 @@ int main(void)
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    while (cin >> str)
+    while (getline(cin, str))
     {
         Stack* last_element = NULL;
-        int flag = 1;
+        bool flag = 1;
+        size_t len = str.length();
 
-        if (str.length() % 2 == 1)
+       if (len % 2 == 1)
             flag = 0;
         else
-            for (int i = 0; i < str.length(); ++i)
+            for (int i = 0; i < len; ++i)
             {
                 c = str[i];
+
                 if (c == '(' or c == '[')
                     push(&last_element, c);
                 else
@@ -64,12 +67,14 @@ int main(void)
                         flag = 0;
                 }
             }
+       
+       if (last_element != NULL)
+           flag = 0;
 
         if (flag)
-            cout << "YES" << "\n";
+            cout << "YES\n";
         else
-            cout << "NO" << "\n";
+            cout << "NO\n";
     }
-
     return 0;
 }
