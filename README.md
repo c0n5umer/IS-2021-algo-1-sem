@@ -14,7 +14,7 @@
 ## [Лабораторная работа #4](https://github.com/c0n5umer/IS-2021-algo-1-sem/tree/master/Lab4)
 - [Стек](https://github.com/c0n5umer/IS-2021-algo-1-sem/blob/master/Lab4/A/A/main.cpp)
 - [Очередь](https://github.com/c0n5umer/IS-2021-algo-1-sem/blob/master/Lab4/B/B/main.cpp)
-- [Правильная скобочная последлвательность](https://github.com/c0n5umer/IS-2021-algo-1-sem/blob/master/Lab4/C/C/main.cpp)
+- [Правильная скобочная последовательность](https://github.com/c0n5umer/IS-2021-algo-1-sem/blob/master/Lab4/C/C/main.cpp)
 - [Постфиксная запись](https://github.com/c0n5umer/IS-2021-algo-1-sem/blob/master/Lab4/D/D/main.cpp)
 - [Бин поиск](https://github.com/c0n5umer/IS-2021-algo-1-sem/blob/master/Lab4/E/E/main.cpp)
 - [Гирлянда](https://github.com/c0n5umer/IS-2021-algo-1-sem/blob/master/Lab4/F/F/main.cpp)
